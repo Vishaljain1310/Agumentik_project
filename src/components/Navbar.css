@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .middle-section {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-btn,
+  .get-started-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover,
+  .get-started-btn:hover {
+    background-color: #fff;
+    color: #007bff;
+  }
+  

@@ -1,0 +1,34 @@
+
+.more-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+  }
+
+  .t-sub{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+
+  .sub-t{
+    max-width:60%;
+  }
+
+  
+  
+  .images-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .images-container img {
+    max-width: 200px;
+    margin: 0 10px;
+  }
+  
